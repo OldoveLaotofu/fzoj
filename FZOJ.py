@@ -56,5 +56,5 @@ def problems(op):
         return render_template(str(op)+'.html')
 
 if __name__=='__main__':
-    app.run()
+    app.run('0.0.0.0')
 
